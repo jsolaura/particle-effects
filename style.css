@@ -136,8 +136,7 @@ a {
 }
 
 .mainTxt {
-    width: 30%;
-    min-width: 400px;
+    width: 480px;
     padding: 1rem;
     border: 1px solid #000;
     background: rgba(0, 0, 0, .5);
@@ -220,12 +219,12 @@ a {
 .mainImg img:nth-child(6) {bottom: -4rem; right: -10rem;}
 
 #wrapper {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 section {
     min-height: 100vh;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
 }
 
 .section1 {
